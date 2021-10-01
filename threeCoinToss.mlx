@@ -5,9 +5,7 @@ coin1 = floor(rand(numToss,1)*2); %this line generates values for the first coin
 coin2 = floor(rand(numToss,1)*2); %this line generates values for the second coin
 coin3 = floor(rand(numToss,1)*2); %this line generates values for the third coin
 
-%the function then adds the total number of heads and tails and displays
-%the results in a histogram
-threeCoinToss = [coin1, coin2, coin3]; %the values of the three coins are combined into one matrix
-
-hist(threeCoinToss,2) %the values of the three tosses are displayed in two columns: total tails (0) and total heads (1)
+%the function then d displays the results in a histogram
+threeCoinToss = [coin1, coin2, coin3]; %the values of the three coins are combined into one array
+hist(threeCoinToss,2) %the values of the three tosses are displayed in six columns. 0 is tails, 1 is heads.
 end
