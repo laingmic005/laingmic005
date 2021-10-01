@@ -1,0 +1,5 @@
+function OutValues = outValues(inValue,rootValue)
+%This function takes the nth root (where n is equal to
+%rootValue) of the input inValue.
+OutValues = inValue.^(1/rootValue);
+end
