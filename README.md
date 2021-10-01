@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Micah Laing (@laingmic005)
-- 👀 I’m studying Electrical and Computer Engineering
+- 👀 I’m studying Electrical and Computer Engineering @ Utah Valley University
 - 🌱 I’m currently learning MATLAB and Simulink
 - 📫 Reach me via email @ micahlaing005@gmail.com
 
