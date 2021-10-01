@@ -1,0 +1,8 @@
+function [outMat] = customSort( inMat )
+%this function takes an n x m 2D array with random integers between -100
+%and 100 and sorts them in asceding order from left to right, and top to
+%bottom. The lowest value will be stored in outMat(1,1).
+[n,m] = size(inMat); %finds the size of 2D array inMat
+arrayIn = inMat(:); %inMat is converted to a 1 dimensional array called arrayIn
+outMat = reshape(sort(arrayIn),n,m)'; %arrayIn is arranged in ascending order, then it is reshaped into matrix size n x m. This new matrix is then flipped using the ' operator. 
+end
