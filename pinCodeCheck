@@ -1,0 +1,21 @@
+function [ repPos, pinCodeFix ] = pinCodeCheck( pinCode )
+
+%a pin code may be any length of digits, however it cannot have two identical digits next to eachother.
+%this function will take an array of any size and remove repeating numbers (that are next to eachother). 
+%repPos will return the positions in array pinCode that were removed.
+%pinCodeFix will return pinCode, but without the duplicating numbers.
+
+    repPos = []; %declares repPos as an empty array
+    preLog = ones(1,length(pinCode)); %generates an array of 1s that will later be converted to a logical array.
+    
+    for (i = [1:length(pinCode)-1]) %this loop will check each digit, to make sure the following digit is not identical.
+        if ( pinCode(i)==pinCode(i+1) )
+            repPos(end+1) = i+1; %adds the position of repeated digit to the end of repPos.
+            preLog(i+1) = 0; %changes the position of repeated digit to 0 so that it will not print in pinCodeFix.
+        end
+    end
+    
+    logPin = logical(preLog); %converts the preLog to a logical array.
+    pinCodeFix = pinCode(logPin); %prints the new pincode without repeating digits.
+    
+end
