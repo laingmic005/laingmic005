@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Micah Laing (@laingmic005)
-- 👀 I’m studying Electrical and Computer Engineering @ Utah Valley University
-- 🌱 I’m currently learning MATLAB and Simulink
+- 👀 I’m studying Computer Engineering and Computer Science @ Utah Valley University
+- 🌱 I’m profficient in Python, and familiar with MATLAB, HTML, JavaScript, and Java
 - 📫 Reach me via email @ micahlaing005@gmail.com
 
 <!---
