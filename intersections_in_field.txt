@@ -1,0 +1,11 @@
+These SCMs are in the field, and still need their lanes configured.
+
+
+6090          ***APEX map needs review***
+10.212.20.171
+---------------------------------------------------------------
+
+
+6206		***APEX map missing***
+10.168.6.28
+
