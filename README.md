@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Micah Laing (@laingmic005)
 - 👀 I’m studying Physics @ Utah Valley University
-- 🌱 I’m profficient in Python, and familiar with C/C++, MATLAB, HTML, JavaScript, and Java
+- 🌱 I’m profficient in Python, MATLAB, C/C++, Wolfram Mathematica, and Verilog
 - 📫 Reach me via email @ micahlaing005@gmail.com
 
 <!---
